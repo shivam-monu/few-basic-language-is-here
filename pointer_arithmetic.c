@@ -11,7 +11,7 @@ int main() {
     char a='A';
     char* ptr=&a;
     printf("the address of a is %u \n",ptr);
-    ptr++;  // increase the address by 4 because of int take the 4 bytes (increament by 4)
+    ptr++;  // increase the address by 1 because of char take the 1 bytes (increament by 1)
     printf("the value  of ptr is %u\n",ptr);
     return 0;
 }
